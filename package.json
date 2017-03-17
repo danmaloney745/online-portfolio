@@ -1,0 +1,18 @@
+{
+  "name": "cv-node-materialize",
+  "version": "1.0.0",
+  "description": "Online Portfolio Using Materialize",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "sendgrid": "~3.0.8"
+  }
+}
