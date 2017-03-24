@@ -100,7 +100,11 @@ p {
   #index-banner .section {
     top: 0;
   }
+  .top-offset {
+    margin-top: -4%;
+  }
 }
+
 /* End Media Queires */
 
 
