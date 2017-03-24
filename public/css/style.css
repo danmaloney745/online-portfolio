@@ -47,6 +47,11 @@ p {
   margin-top: 20%;
 }
 
+/* Hide Elements */
+.visibility {
+  visibility: hidden;
+}
+
 /* Parallax Styling */
 .parallax-container {
   min-height: 380px;
@@ -60,6 +65,7 @@ p {
 }
 /* End Parallax Styling */
 
+/* Social Images Styling */
 .logo-responsive {
   max-width: 50%;
   height: auto; 
@@ -68,6 +74,7 @@ p {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -76,6 +83,7 @@ p {
   text-align: center;
   padding-right: 0.5%;
 }
+/* End Social Images Styling */
 
 /* Media Queries */
 @media only screen and (max-width : 992px) {
