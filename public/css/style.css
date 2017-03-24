@@ -27,13 +27,25 @@ p {
 /* End Global Styling */
 
 /* Navigation Styling */
-
+nav {
+  opacity: 0.95;
+}
 .side-nav a {
   font-size: 18px;
 }
 
 .navbar-fixed {
   z-index: 998 !important;
+}
+
+.side-nav {
+  background-color: #fff;
+}
+
+.sidebar-collapse {
+    position: absolute;
+    left: -170px;
+    top: -45px;
 }
 
 /* End Nav Styling */
@@ -56,7 +68,6 @@ p {
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: auto;
   color: rgba(255,255,255,.9);
 }
 
@@ -98,7 +109,7 @@ p {
     top: 10%;
   }
   .top-offset {
-    margin-top: 12%;
+    margin-top: 14%;
   }
   h2 {
     font-size: 2.56rem;

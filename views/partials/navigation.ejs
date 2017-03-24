@@ -1,8 +1,10 @@
 <div class="navbar-fixed">
     <nav class="grey darken-3" role="navigation">
         <div class="nav-wrapper ">
-            <a id="logo-container" href="#" class="brand-logo white-text">Daniel Maloney</a>
-            
+            <a href="#" data-activates="slide-out" class="button-collapse show-on-large">
+                <i class="material-icons white-text">menu</i>
+            </a>
+            <a id="logo-container" href="#" class="brand-logo white-text">DM</a>
             <ul class="right hide-on-med-and-down">
                 <li><a class="white-text scrollspy" href="#profile">Profile</a></li>
                 <li><a class="white-text scrollspy" href="#contact">Contact Details</a></li>
@@ -10,6 +12,19 @@
                 <li><a class="white-text scrollspy" href="#services">Services</a></li>
                 <li><a class="white-text scrollspy" href="#projects">Projects</a></li>
                 <li><a class="white-text scrollspy" href="#email">Email</a></li>
+            </ul>
+            
+            <ul id="slide-out" class="side-nav">
+                <li>
+                    <div class="userView">
+                        <div class="background">
+                            <img src="/imgs/background-5.jpg">
+                        </div>
+                        <a href="#!user"><img class="circle" src="/imgs/profile.jpg"></a>
+                        <a href="#!name"><span class="white-text">Daniel Maloney</span></a>
+                        <a href="#!email"><span class="white-text">danielmaloneygti@gmail.com</span>
+                    </div>
+                </li>
             </ul>
 
             <ul class="side-nav" id="nav-mobile">
@@ -20,7 +35,6 @@
                 <li><a class="grey-text text-darken-3 scrollspy" href="#projects" class="waves-effect waves-teal">Projects</a></li>
                 <li><a class="grey-text text-darken-3 scrollspy" href="#email" class="waves-effect waves-teal">Email</a></li>
             </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>
         </div>
     </nav>
 </div>
