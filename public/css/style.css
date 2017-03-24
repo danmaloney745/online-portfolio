@@ -42,6 +42,11 @@ p {
   color: #26a69a;
 }
 
+/* Header Styling */
+.top-offset {
+  margin-top: 20%;
+}
+
 /* Parallax Styling */
 .parallax-container {
   min-height: 380px;
