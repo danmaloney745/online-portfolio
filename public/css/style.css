@@ -26,7 +26,7 @@ p {
 }
 /* End Global Styling */
 
-/* Side Navigation Styling */
+/* Navigation Styling */
 
 .side-nav a {
   font-size: 18px;
@@ -36,7 +36,7 @@ p {
   z-index: 998 !important;
 }
 
-/* End Side Nav Styling */
+/* End Nav Styling */
 
 .button-collapse {
   color: #26a69a;
