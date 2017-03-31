@@ -29,6 +29,7 @@ p {
 /* Navigation Styling */
 nav {
   opacity: 0.95;
+  background-color: #173E5F;
 }
 .side-nav a {
   font-size: 18px;
