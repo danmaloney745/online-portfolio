@@ -97,12 +97,6 @@ nav {
 }
 /* End Social Images Styling */
 
-/* Card Styling */
-.card .card-reveal {
-    overflow: hidden;
-  }
-/* End Card Styling */
-
 /* Media Queries */
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
