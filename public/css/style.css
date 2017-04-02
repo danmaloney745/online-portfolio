@@ -31,9 +31,10 @@ nav {
   opacity: 0.95;
   background-color: #173E5F;
 }
-.side-nav a {
+
+/*.side-nav a {
   font-size: 18px;
-}
+}*/
 
 .navbar-fixed {
   z-index: 998 !important;
@@ -64,6 +65,7 @@ nav {
 .visibility {
   visibility: hidden;
 }
+
 
 /* Parallax Styling */
 .parallax-container {
