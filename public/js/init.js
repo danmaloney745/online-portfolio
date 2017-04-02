@@ -1,8 +1,9 @@
 (function($){
   $(function(){
     // update scrollbars
-    $('.side-nav').perfectScrollbar('update');
+    $('.side-nav').perfectScrollbar();
     $('.card-reveal').perfectScrollbar();
+    $('.side-nav').perfectScrollbar('update');
     $('.card-reveal').perfectScrollbar('update');
     
     $('.button-collapse').sideNav({
