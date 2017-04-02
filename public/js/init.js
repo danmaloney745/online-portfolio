@@ -1,10 +1,10 @@
 (function($){
   $(function(){
     // update scrollbars
-    $('.side-nav').perfectScrollbar();
-    $('.card-reveal').perfectScrollbar();
     $('.side-nav').perfectScrollbar('update');
     $('.card-reveal').perfectScrollbar('update');
+    $('.side-nav').perfectScrollbar();
+    $('.card-reveal').perfectScrollbar();
     
     $('.button-collapse').sideNav({
       closeOnCLick: true
