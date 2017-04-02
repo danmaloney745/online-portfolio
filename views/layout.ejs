@@ -14,69 +14,68 @@
     <link href="/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="/css/style.css" type="text/css" rel="stylesheet"/>
     <link href="/css/portfolio.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.min.css">
+    <link type="text/css" rel="stylesheet" href="css/animate.min.css">
+    <link type="text/css" rel="stylesheet" href="css/perfect-scrollbar.min.css">
   </head>
 
   <body>
     <main class="cv" role="main">
-      <!-- Navigation Bar -->
-      <% include ./partials/navigation %>
-      <!-- End Navigation Bar -->
+        <!-- Navigation Bar -->
+        <% include ./partials/navigation %>
+        <!-- End Navigation Bar -->
 
-      <div id="top-page" class="parallax-container">
-        <div class="section no-pad-bot">
-          <div class="container">
-            <h1 class="header center white-text top-offset">{Daniel Maloney}</h1>
-            <div class="row center">
-              <h5 class="header col s12 light">/*Welcome to my CV*/</h5>
+        <div id="top-page" class="parallax-container">
+          <div class="section no-pad-bot">
+            <div class="container">
+              <h1 class="header center white-text top-offset">{Daniel Maloney}</h1>
+              <div class="row center">
+                <h5 class="header col s12 light">/*Welcome to my CV*/</h5>
+              </div>
             </div>
           </div>
+          <div class="parallax">
+            <img  src="/imgs/background-2.png" alt="Unsplashed background img 1">
+          </div>
         </div>
-        <div class="parallax">
-          <img  src="/imgs/background-2.png" alt="Unsplashed background img 1">
+
+        <!-- Profile Details -->
+        <% include ./partials/profile %>
+        <!-- End Profile Details -->
+
+        <!-- Contact Detials -->
+        <% include ./partials/contact %>
+        <!-- End Contact Details -->
+      
+        <!-- Skills -->
+        <% include ./partials/skills %>
+        <!-- End Skills -->
+      
+        <div class="parallax-container">
+          <div class="parallax">
+            <img src="/imgs/background-5.jpg" alt="Unsplashed background img 1">
+          </div>
         </div>
-      </div>
 
-      <!-- Profile Details -->
-      <% include ./partials/profile %>
-      <!-- End Profile Details -->
+        <!-- Services -->
+        <% include ./partials/services %>
+        <!-- End Services -->
 
-      <!-- Contact Detials -->
-      <% include ./partials/contact %>
-      <!-- End Contact Details -->
-    
-      <!-- Skills -->
-      <% include ./partials/skills %>
-      <!-- End Skills -->
-    
-      <div class="parallax-container">
-        <div class="parallax">
-          <img src="/imgs/background-5.jpg" alt="Unsplashed background img 1">
-        </div>
-      </div>
+        <!-- Projects -->
+        <% include ./partials/projects %>
+        <!-- End Projects -->
 
-      <!-- Services -->
-      <% include ./partials/services %>
-      <!-- End Services -->
+        <!-- Email Form -->
+        <% include ./partials/email %>
+        <!-- End Email Form -->
 
-      <!-- Projects -->
-      <% include ./partials/projects %>
-      <!-- End Projects -->
-
-      <!-- Email Form -->
-      <% include ./partials/email %>
-      <!-- End Email Form -->
-
-      <!-- Footer -->
-      <% include ./partials/footer %>
-      <!-- End Footer -->
+        <!-- Footer -->
+        <% include ./partials/footer %>
+        <!-- End Footer -->
     </main>
-    
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.min.js"></script>
-    <script src="js/perfect-scrollbar.min.js"></script>
+    <script src="js/perfect-scrollbar.jQuery.min.js"></script>
     <script src="js/init.js"></script>
   </body>
 </html>

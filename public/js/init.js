@@ -1,5 +1,10 @@
 (function($){
   $(function(){
+    // update scrollbars
+    $('.side-nav').perfectScrollbar('update');
+    $('.card-reveal').perfectScrollbar();
+    $('.card-reveal').perfectScrollbar('update');
+    
     $('.button-collapse').sideNav({
       closeOnCLick: true
     });
