@@ -5,27 +5,27 @@
             <h4>I would love to hear from you.</h4>
             <form role="form" method="POST" action="/contact">
                 <div class="input-field col s6">
-                    <input placeholder="First Name" id="first_name" type="text" class="validate">
-                    <label for="first_name">First Name</label>
+                    <input placeholder="First Name" id="firstName" name="firstName" type="text" class="validate" required>
+                    <label for="firstName">First Name</label>
                 </div>
                 <div class="input-field col s6">
-                    <input placeholder="Last Name" id="last_name" type="text" class="validate">
-                    <label for="last_name">Last Name</label>
+                    <input placeholder="Last Name" id="lastName" name="lastName" type="text" class="validate" required>
+                    <label for="lastName">Last Name</label>
                 </div>
         </div>
         <div class="row">
             <div class="input-field col s6">
-                <input placeholder="example@gmail.com" id="email" type="email" class="validate">
+                <input placeholder="example@gmail.com" id="email" name="email" type="email" class="validate" required>
                 <label for="password">Email</label>
             </div>
             <div class="input-field col s6">
-                <input id="number" type="text" class="validate">
+                <input id="number" name="number" type="text">
                 <label for="number">Contact Number</label>
             </div>
         </div>
         <div class="row">
             <div class="input-field col l12 m12 s12">
-                <input id="comments" type="text" class="validate">
+                <input id="comments" name="message" type="text" class="validate" required>
                 <label for="comments">Comments</label>
             </div>
         </div>
