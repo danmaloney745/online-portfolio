@@ -3,18 +3,22 @@
 /* Global Styling */
 body{
   font-family: 'Montserrat';
+  color: #424242;
 }
 
 h2 {
   margin: 5px 0px 55px 0px;
+  color: #212121;
 }
 
 h3 {
   margin: 5px 0px 55px 0px;
+  color: #212121;
 }
 
 h4 {
   margin: 5px 0px 55px 0px;
+  
 }
 
 p {
