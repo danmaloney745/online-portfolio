@@ -18,7 +18,7 @@ h3 {
 
 h4 {
   margin: 5px 0px 55px 0px;
-  
+  color: #212121;
 }
 
 p {
@@ -62,7 +62,7 @@ nav {
 
 /* Header Styling */
 .top-offset {
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 /* Hide Elements */
@@ -80,6 +80,10 @@ nav {
 
 .parallax-container .section {
   width: 100%;
+}
+
+.parallax {
+  bottom: 67px;
 }
 /* End Parallax Styling */
 
