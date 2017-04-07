@@ -25,6 +25,7 @@
   $(function(){
     var options = [
       {selector: '#profile', offset: 200, callback: '$("#profile").addClass("animated fadeInLeft").css("visibility", "visible")'},
+      {selector: '#profile', offset: 200, callback: '$("#contact").addClass("animated fadeIn").css("visibility", "visible")'},
       {selector: '#email-contact', offset: 200, callback: '$("#email-contact").addClass("animated fadeInLeft").css("visibility", "visible")'},
       {selector: '#phone-contact', offset: 200, callback: '$("#phone-contact").addClass("animated fadeInUp").css("visibility", "visible")'},
       {selector: '#location', offset: 200, callback: '$("#location").addClass("animated fadeInRight").css("visibility", "visible")'},

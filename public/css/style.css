@@ -147,6 +147,11 @@ nav {
     font-size: 1.28rem;
   }
 
+  .logo-responsive {
+    max-width: 50%;
+    width: 70px;
+    height: 70px;
+  }
   .card-image img{
     height: 200px;
   }
