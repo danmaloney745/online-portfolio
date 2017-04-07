@@ -125,12 +125,18 @@ nav {
 
 /* Media Queries */
 @media only screen and (max-width : 992px) {
+  .parallax {
+    bottom: 0px;
+  }
   .parallax-container .section {
     position: absolute;
-    top: 25%;
+    top: 7%;
   }
   .parallax-container .section .container h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+  }
+  .parallax-container {
+    height: 360px;
   }
   #index-banner .section {
     top: 10%;
@@ -145,6 +151,9 @@ nav {
     font-size: 1.92rem;
   }
   h4 {
+    font-size: 1.28rem;
+  }
+  h5 {
     font-size: 1.28rem;
   }
 
