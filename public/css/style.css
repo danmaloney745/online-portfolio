@@ -25,8 +25,10 @@ p {
   line-height: 2rem;
 }
 
-.text-left {
+.text-justify {
   text-align: justify;
+  padding-right: 3%;
+  padding-bottom: 3%;
 }
 /* End Global Styling */
 
@@ -54,11 +56,11 @@ nav {
     top: -45px;
 }
 
-/* End Nav Styling */
-
 .button-collapse {
   color: #26a69a;
 }
+
+/* End Nav Styling */
 
 /* Header Styling */
 .top-offset {
@@ -90,7 +92,8 @@ nav {
 /* Social Images Styling */
 .logo-responsive {
   max-width: 50%;
-  height: auto; 
+  width: 120px;
+  height: 120px; 
 }
 
 .icon-block {
@@ -106,6 +109,18 @@ nav {
   padding-right: 0.5%;
 }
 /* End Social Images Styling */
+
+/* Project Card Styling */
+.card .card-title {
+  padding-top: 4px;
+  padding-bottom: 7px;
+}
+
+.card-image img{
+    height: 280px;
+}
+
+/* End Project Card Styling */
 
 /* Media Queries */
 @media only screen and (max-width : 992px) {
