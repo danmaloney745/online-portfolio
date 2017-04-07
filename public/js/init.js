@@ -1,5 +1,20 @@
 (function($){
   $(function(){
+
+    //navbar change color on scroll
+    var navbar = $('.navbar');
+		var navHeight = navbar.height();
+
+		$(window).scroll(function() {
+			if($(this).scrollTop() >= navHeight) {
+				navbar.addClass('navbar-color');
+			}
+			else {
+				navbar.removeClass('navbar-color');
+			}
+		});
+
+
     // update scrollbars
     $('.side-nav').perfectScrollbar('update');
     $('.card-reveal').perfectScrollbar('update');
