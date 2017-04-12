@@ -1,6 +1,5 @@
 (function($){
   $(function(){
-
     //navbar change color on scroll
     var navbar = $('.navbar');
 		var navHeight = navbar.height();
@@ -53,5 +52,10 @@
 
     Materialize.scrollFire(options);
   }); //end scroll fire
+
+  $(window).load(function() { 
+		$('#status').fadeOut();
+		$('#preloader').delay(350).fadeOut('slow'); 
+	}); 
     
 })(jQuery); // end of jQuery name space
